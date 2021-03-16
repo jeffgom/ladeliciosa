@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Deliciosa</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <!--Logotipo de la pagina-->
+        <a href="index.html">
+                <img class="header__logo" src="img/logo.png" alt="logotipo">
+        </a>
+    </header>
+    <!--Navegacion-->
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+    <main class="contenedor">
+        <h1> Pasteles  </h1>
+        
+        <div class="pasteless">
+            <img class="pasteless__imagen" src="img/1.jpg" alt="imagen del pastel">
+            
+            <div class="pasteless__contenido">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Mauris id hendrerit erat. Integer tempus turpis a cursus 
+                    efficitur. Aliquam auctor ex non tempor auctor. Sed in 
+                    velit eget leo dictum feugiat rhoncus quis dolor.</p>
+                   
+                    <form class="formulario">
+                        <select class="formulario__campo">
+                            <option disabled selected>--Seleccione Tamaño</option>
+                            <option>Pequeño</option>
+                            <option>Mediano</option>
+                            <option>Grande</option>
+                        </select>
+                        <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                        <input class="formulario__submit" type="submit" value="Agrefar al carrito">
+                    </form>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">La Deliciosa Todos los derechos reservados 2021</p>
+    </footer>
+
+</body>
+</html>
